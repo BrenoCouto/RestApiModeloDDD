@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast", //mudar para weatherforecast para receber os dados da API
+      "launchUrl": "swagger", //mudar para weatherforecast/swagger para receber os dados da API
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

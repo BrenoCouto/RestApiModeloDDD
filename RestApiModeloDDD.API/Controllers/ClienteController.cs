@@ -19,13 +19,13 @@ namespace RestApiModeloDDD.API.Controllers
 
         //GET api/valores
         [HttpGet]
-        public ActionResult<IEnumerable<String>> Get()
+        public ActionResult<IEnumerable<ClienteDto>> Get()
         {
             return Ok(applicationServiceCliente.GetAll());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<ClienteDto> Get(int id)
         {
             return Ok(applicationServiceCliente.GetById(id));
         }
@@ -39,15 +39,16 @@ namespace RestApiModeloDDD.API.Controllers
             {
                 if (clienteDto == null)
                     return NotFound();
+
                 applicationServiceCliente.Add(clienteDto);
-                return Ok("Cliente Cadastrado com sucesso!");
+                return Ok("Cliente Cadastrado com sucesso!"); 
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-
+        [HttpPut]
         public ActionResult Put([FromBody] ClienteDto clienteDto)
         {
             try
@@ -77,6 +78,6 @@ namespace RestApiModeloDDD.API.Controllers
             {
                 throw ex;
             }
-        }
+        } 
     }
 }

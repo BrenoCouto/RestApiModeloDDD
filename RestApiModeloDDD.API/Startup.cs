@@ -31,6 +31,7 @@ namespace RestApiModeloDDD.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Model DDD", Version = "v1" });
+                c.CustomSchemaIds(type => type.Name.EndsWith("Dto") ? type.Name.Replace("Dto", string.Empty) : type.Name);
             });
         }
 
@@ -50,9 +51,9 @@ namespace RestApiModeloDDD.API
             app.UseSwagger();
 
             app.UseSwaggerUI(c =>
-           {
-               c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Model DDD");
-           });
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Model DDD");
+            });
 
             app.UseHttpsRedirection();
 
