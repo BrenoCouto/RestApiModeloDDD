@@ -1,0 +1,14 @@
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.deps.json
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.dll
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Application.pdb
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Core.dll
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.dll
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.Core.pdb
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\bin\Debug\netcoreapp3.1\RestApiModeloDDD.Domain.pdb
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.csprojAssemblyReference.cache
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.AssemblyInfoInputs.cache
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.AssemblyInfo.cs
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.csproj.CoreCompileInputs.cache
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.csproj.CopyComplete
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.dll
+C:\Users\breno\Desktop\DEV\RestApiModeloDDD\RestApiModeloDDD.Application\obj\Debug\netcoreapp3.1\RestApiModeloDDD.Application.pdb
